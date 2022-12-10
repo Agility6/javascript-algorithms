@@ -5,7 +5,7 @@ function quick_sort(array, left, right) {
 
   if(left >= right) return array
 
-  const pivot = array[left]
+  const pivot = array[parseInt((left + right) / 2)]
   let i = left - 1
   let j = right + 1
 
